@@ -1,0 +1,5 @@
+__pycache__
+data/*
+logs/*
+acs_data.db
+acs_data.txt
