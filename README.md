@@ -42,14 +42,14 @@ You may also want to install [DB Browser](https://sqlitebrowser.org/) to view th
    ```
 2. Install pip packages
    ```
-   pip install pandas, pyodbc, sqlite3
+   pip install pandas, pyodbc
    ```
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Open Powershell in Windows 10
+1. Open Powershell in Windows
 2. Navigate to your project directory
 3. Run ```python app.py```
 

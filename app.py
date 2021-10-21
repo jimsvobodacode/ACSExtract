@@ -53,7 +53,7 @@ class App:
     def Process(self):
         try:
             logging.info('*** Start ***')
-            #Config().Process()                          # download all files from ACS FTP (comment out after files are downloaded)
+            Config().Process()                          # download all files from ACS FTP (comment out after files are downloaded)
             Repository().Configure(self._uniqueColumns) # create local db.  delete acs_data.db (if exists) file for a clean start
             Geography().Process()                       # load geography table
             Worker().Process(self._uniqueColumns)       # extract all the specified column data into sqlite db
