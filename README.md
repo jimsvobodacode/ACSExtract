@@ -53,6 +53,8 @@ You may also want to install [DB Browser](https://sqlitebrowser.org/) to view th
 2. Navigate to your project directory
 3. Run ```python app.py```
 
+Note: The initial download of from the United States Census Bureau takes approximately 2.5 hours. 
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
